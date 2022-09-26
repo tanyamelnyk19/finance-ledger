@@ -1,11 +1,11 @@
 {
-  "name": "parcel-project-template",
+  "name": "finance-ledger",
   "version": "2.0.0",
   "description": "",
   "homepage": "https://goitacademy.github.io/parcel-project-template",
   "scripts": {
-    "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-project-template/"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /finance-ledger/"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,8 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "modern-normalize": "^1.1.0",
+    "sass": "^1.55.0"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
