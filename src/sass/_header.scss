@@ -1,0 +1,18 @@
+.header__nav {
+    padding: 24px 22px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo__text {
+    font-size: 28px;
+    line-height: 1.36;
+    color: var(--accent-color);
+}
+
+.header-logo__text--light {
+    color: var(--main-text-color);
+}
