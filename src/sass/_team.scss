@@ -1,0 +1,29 @@
+.team {
+    padding-top: 72px;
+    padding-bottom: 50px;
+    color: var(--dark-text-color);
+    text-align: center;
+}
+
+.team__title {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.team-members {
+    margin-top: 63px;
+}
+
+.team-members__item + .team-members__item {
+    margin-top: 30px;
+}
+
+.team-members__name {
+    margin-top: 16px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.35;
+}

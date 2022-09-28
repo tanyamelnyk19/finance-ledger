@@ -1,0 +1,19 @@
+.blog__container {
+    padding-top: 48px;
+    padding-bottom: 58px;
+    background-color: var(--blog-bg-color);
+}
+
+.blog__title {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.blog__button {
+    margin-top: 24px;
+    height: 54px;
+    border: 1px solid var(--main-text-color);
+    font-size: 16px;
+    background-color: transparent;
+}

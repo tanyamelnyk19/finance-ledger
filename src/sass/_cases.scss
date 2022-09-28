@@ -1,0 +1,23 @@
+.cases {
+    padding-top: 56px;
+    padding-bottom: 40px;
+    color: var(--dark-text-color);
+    text-align: center;
+}
+
+.cases__title {
+    margin-top: 16px;
+    padding-left: 30px;
+    padding-right: 31px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.cases-gallery {
+    margin-top: 31px;
+}
+
+.cases-gallery__item + .cases-gallery__item {
+    margin-top: 8px;
+}

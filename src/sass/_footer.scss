@@ -1,0 +1,17 @@
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--dark-text-color);
+    text-align: center;
+}
+
+.footer-social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.footer-social-icons__item + .footer-social-icons__item {
+    margin-left: 25px;
+}
