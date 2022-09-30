@@ -1,25 +1,6 @@
-import throttle from 'lodash.throttle';
-import refs from './js/refs';
+import 'lightbox2';
+import smoothScroll from './js/smoothScroll';
+import addFixedHeader from './js/addFixedHeader';
 
-let headerHeight;
-// let addClass;
+window.addEventListener('scroll', addFixedHeader);
 
-const currentWidth = document.documentElement.clientWidth;
-if (currentWidth >= 768) {
-  headerHeight = 70;
-} else {
-  headerHeight = 170;
-}
-
-const showFixedHeader = throttle(() => {
-  const currentScroll = window.scrollY;
-  if (currentScroll > headerHeight) {
-    refs.header.classList.add('header--fixed');
-    // refs.baner.classList.add(addClass);
-  } else {
-    refs.header.classList.remove('header--fixed')
-    // refs.baner.classList.remove(addClass);
-  }
-}, 100);
-
-window.addEventListener('scroll', showFixedHeader);
