@@ -10,8 +10,28 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 12px;
+
+    @media screen and (min-width: 768px) {
+        margin-bottom: 10px;
+    }
 }
 
 .footer-social-icons__item + .footer-social-icons__item {
     margin-left: 25px;
 }
+
+.footer-social-icons__link {
+    display: block;
+}
+
+.footer-social-icons__link:hover .footer-social-icons__icon,
+.footer-social-icons__link:focus .footer-social-icons__icon {
+    fill: var(--accent-color);
+    transition: fill var(--animation);
+}
+
+.footer-social-icons__icon {
+    fill: var(--main-text-color);
+    transition: fill var(--animation);
+}
+

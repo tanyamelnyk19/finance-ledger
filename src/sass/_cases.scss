@@ -3,6 +3,15 @@
     padding-bottom: 40px;
     color: var(--dark-text-color);
     text-align: center;
+
+    @media screen and (min-width: 768px) {
+        padding-top: 48px;
+    }
+
+    @media screen and (min-width: 1360px) {
+        padding-top: 80px;
+        padding-bottom: 54px;
+    }
 }
 
 .cases__title {
@@ -12,12 +21,49 @@
     margin-bottom: 24px;
     font-weight: 400;
     font-size: 32px;
+
+    @media screen and (min-width: 768px) {
+        padding: 0;
+        font-size: 40px;
+        line-height: 1.35;
+    }
 }
 
 .cases-gallery {
     margin-top: 31px;
+
+    @media screen and (min-width: 768px) {
+        margin-top: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -18px;
+        margin-bottom: -18px;
+    }
+
+    @media screen and (min-width: 1360px) {
+        margin-top: 36px;
+        margin-left: -20px;
+        margin-bottom: -20px;
+    }
+}
+
+.cases-gallery__item {
+    @media screen and (min-width: 768px) {
+        margin-left: 18px;
+        margin-bottom: 18px;
+        flex-basis: calc((100% - 18px * 3) / 3);
+    }
+
+    @media screen and (min-width: 1360px) {
+        margin-left: 20px;
+        margin-bottom: 20px;
+        flex-basis: calc((100% - 20px * 3) / 3);
+    }
 }
 
 .cases-gallery__item + .cases-gallery__item {
     margin-top: 8px;
+    @media screen and (min-width: 768px) {
+        margin-top: 0px;
+    }
 }
